@@ -16,21 +16,7 @@
       "config": {
         "zeroConfig": true,
         "framework": "nextjs"
-      },
-      "error": {
-        "name": "Error",
-        "stack": "Error: Command \"npm run build\" exited with 1\n    at ChildProcess.<anonymous> (C:\\Users\\srt22\\AppData\\Roaming\\npm\\node_modules\\vercel\\node_modules\\@vercel\\build-utils\\dist\\index.js:32113:20)\n    at ChildProcess.emit (node:events:513:28)\n    at ChildProcess.emit (node:domain:489:12)\n    at ChildProcess.cp.emit (C:\\Users\\srt22\\AppData\\Roaming\\npm\\node_modules\\vercel\\node_modules\\@vercel\\build-utils\\dist\\index.js:3150:29)\n    at maybeClose (node:internal/child_process:1091:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)",
-        "message": "Command \"npm run build\" exited with 1",
-        "hideStackTrace": true,
-        "code": "BUILD_UTILS_SPAWN_1"
       }
     }
-  ],
-  "error": {
-    "name": "Error",
-    "stack": "Error: Command \"npm run build\" exited with 1\n    at ChildProcess.<anonymous> (C:\\Users\\srt22\\AppData\\Roaming\\npm\\node_modules\\vercel\\node_modules\\@vercel\\build-utils\\dist\\index.js:32113:20)\n    at ChildProcess.emit (node:events:513:28)\n    at ChildProcess.emit (node:domain:489:12)\n    at ChildProcess.cp.emit (C:\\Users\\srt22\\AppData\\Roaming\\npm\\node_modules\\vercel\\node_modules\\@vercel\\build-utils\\dist\\index.js:3150:29)\n    at maybeClose (node:internal/child_process:1091:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)",
-    "message": "Command \"npm run build\" exited with 1",
-    "hideStackTrace": true,
-    "code": "BUILD_UTILS_SPAWN_1"
-  }
+  ]
 }

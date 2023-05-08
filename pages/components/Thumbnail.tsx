@@ -23,7 +23,7 @@ function Thumbnail({movie} :Props) {
       
         <Image 
 
-            src={`https://image.tmdb.org/t/p/w500${movie.backdrop_path || movie.poster_path}`}
+            src={`https://image.tmdb.org/t/p/w500${movie?.backdrop_path || movie?.poster_path}`}
             className="rounded-sm object-cover md:rounded"
             width={260}
             height={78}
@@ -33,7 +33,7 @@ function Thumbnail({movie} :Props) {
             
         />
 
-        <h1>{movie.title}</h1>
+        <h1>{movie?.title}</h1>
     </div>
   )
 }
